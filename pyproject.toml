@@ -1,0 +1,20 @@
+[project]
+name = "interactive-ai-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.117.1",
+    "langchain[openai]>=0.3.27",
+    "langgraph>=0.6.7",
+    "streamlit>=1.50.0",
+    "uvicorn>=0.36.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+    "ipython>=9.5.0",
+]
